@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,264 +9,74 @@
     <meta name="keywords" content="Michael Coleman,Michael,Coleman,website,website developer,web developer,design,web design,christchurch,web,new zealand,nz,SQL,PHP,CSS,Javascript,programming,programmer,developer,freelancer">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Michael Coleman">
-    <meta property="og:image" content="w3.jpg" />
 
     <title>Michael Coleman</title>
 
-    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62316433-2"></script>
     <script>
-        (function(i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        window.dataLayer = window.dataLayer || [];
 
-        ga('create', 'UA-62316433-2', 'auto');
-        ga('send', 'pageview');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-62316433-2');
     </script>
-
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> Home
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li><a class="page-scroll" href="#about">About Me</a></li>
-                    <li><a class="page-scroll" href="#services">My Services</a></li>
-                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
-                    <!--<li>
-                        <a class="page-scroll" href="cv.pdf" target="_blank">CV</a>
-                    </li>!-->
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Intro Header -->
     <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
+                        <img class="img-profile" src="img/me.jpg" alt="">
                         <h1 class="intro-text">Michael Coleman
                             <br>Web Developer & Software Engineer</h1>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+                        <ul class="list-inline list-social-icons mb-0">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/michaelcoleman404/" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/MichaelNZ404" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/mcoleman404" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://codepen.io/MichaelNZ404/" target="_blank">
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-codepen fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-
-    <!-- Blog Section
-    <section id="blog" class="container content-section">
-        <div class="row raised-box">
-            <div class="col-lg-8 col-lg-offset-2 blog-container">
-                <h2 class="text-center"><u>Latest Blog</u></h2>
-                <h3 id="blog-title"></h3>
-                <p id="blog-excerpt"></p>
-                <p id="blog-date"></p>
-            </div>
-        </div>
-    </section>-->
-
-    <!-- About Section -->
-    <section id="about" class="container content-section">
-        <div class="row raised-box">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="text-center"><u>About Me</u></h2>
-
-                <p>I am a 25 year old <b>Freelance Web Developer</b> and <b>Software Engineer</b> with a <b>Bachelor of Computing and Mathematical Sciences with Honors.</b>
-                    <p>Over the past year I have worked on several projects for a variety of different organisations, providing unique business solutions for management and consumer needs.</p>
-                    <p>I specialize in full stack web development, with skills in a variety of popular CMS options. Each site I build is designed to be search engine friendly, with the latest development principles and techniques.</p>
-                    <h3>Key Skills</h3>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>Javascript & jQuery</li>
-                        <li>PHP & Web Services</li>
-                        <li>Web Server Configuration & Management</li>
-                        <li>MySQL & MongoDB Databases</li>
-                        <li>Wordpress & Drupal CMS</li>
-                        <li>Web Performance</li>
-                        <li>Mobile Responsive Design</li>
-                        <li>Search Engine Optimization</li>
-                        <li>Google Analytics</li>
-                        <li>Cyber Security Monitoring & Hardening</li>
-                        <li>Java & C#</li>
-                        <li>Machine Learning & Data Mining</li>
-                        <li>Agile/Scrum Software Methodologies</li>
-                        <li>Adobe Photoshop & Illustrator</li>
-                        <li>Graphic Design Principles & Techniques</li>
-                    </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="container content-section">
-        <div class="row raised-box">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="text-center"><u>What I Can Offer You</u></h2>
-
-                <h3>Thoughtful Design</h4>
-                <p>I emphasise importance on working with my clients to build the product they want, whilst contributing my knowledge of best practices and responsive web design.</p>
-
-                <h3>Custom solutions</h4>
-                <p>I am able to provide custom solutions for business in terms of both design and functionality, such as secure logins, payment modules, data storage and automatic PDF generation.</p>
-
-                <h3>Reliability</h4>
-                <p>I extensively test each feature I include into my sites to ensure their reliability and cross-browser consistency.</p>
-
-                <p><a href="#contact">Let's Talk</a></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="container content-section">
-        <div class="row raised-box">
-            <h2 class="text-center"><u>Portfolio</u></h2>
-            <div id="time-indicator"></div>
-            <div class="col-lg-12 slider-holder">
-                <div class="col-lg-8 col-lg-offset-0 col-xs-8 col-xs-offset-2" id="slider-img">
-                    <div id="viewport">
-                        <div id="box">
-                            <figure class="slide">
-                                <img src="img/hfl.jpg">
-                            </figure>
-                            <figure class="slide">
-                                <img src="img/capisco.jpg">
-                            </figure>
-                            <figure class="slide">
-                                <img src="img/fraser.jpg">
-                            </figure>
-                            <figure class="slide jbs-current">
-                                <img src="img/ol.jpg">
-                            </figure>
-                            <figure class="slide">
-                                <img src="img/vt.jpg">
-                            </figure>
-                        </div>
-                    </div>
-                    <footer>
-                        <nav class="slider-controls">
-                            <ul id="controls">
-                                <li>
-                                    <a class="goto-slide current" href="#" data-slideindex="0"></a>
-                                </li>
-                                <li>
-                                    <a class="goto-slide" href="#" data-slideindex="1"></a>
-                                </li>
-                                <li>
-                                    <a class="goto-slide" href="#" data-slideindex="2"></a>
-                                </li>
-                                <li>
-                                    <a class="goto-slide" href="#" data-slideindex="3"></a>
-                                </li>
-                                <li>
-                                    <a class="goto-slide" href="#" data-slideindex="4"></a>
-                                </li>
-                            </ul>
-                            <div>
-                                <a class="increment-control btn btn-default" href="#" id="prev" title="go to the next slide">&laquo; Prev</a>
-                                <a class="increment-control btn btn-default" href="#" id="next" title="go to the next slide">Next &raquo;</a>
-                            </div>
-                        </nav>
-                    </footer>
-                </div>
-
-                <div class="col-lg-4 col-lg-offset-0 col-xs-8 col-xs-offset-2" id="slider-desc">
-                    <div class="port-item-desc" id="port-item-desc-0">
-                        <h3>Healthy Finance System</h3>
-                        <p>A <a href="http://healthyfinance.co.nz/" target="_blank">Healthy Finance</a> System which provides an intuitive way for organisations to provide and manage finance services.</p>
-                    </div>
-                    <div class="port-item-desc" id="port-item-desc-1">
-                        <h3>Capisco</h3>
-                        <p><a href="http://researchcommons.waikato.ac.nz/bitstream/handle/10289/9570/JCDL15-hinze-Capisco.pdf" target="_blank">Capisco</a> is a semantic search software developed at the <a href="http://www.waikato.ac.nz/">University of Waikato</a>                            which allows corpora to be indexed and searched by concepts.</p>
-                    </div>
-                    <div class="port-item-desc" id="port-item-desc-2">
-                        <h3>Fraser Web DIY</h3>
-                        <p>Teaching web design classes for adult learning at <a href="http://www.fraser.school.nz/" target="_blank">Hamilton's Fraser High School</a> covering the basics of HTML & CSS.</p>
-                    </div>
-                    <div class="port-item-desc" id="port-item-desc-3">
-                        <h3>Rennacs Online Logs</h3>
-                        <p>A <a href="http://rennacs.com/" target="_blank">Rennacs</a> system which allows for viewing and report generation of vehicle diagnositic information.</p>
-                    </div>
-                    <div class="port-item-desc" id="port-item-desc-4">
-                        <h3>Rennacs Vehicle Tracker</h3>
-                        <p>A <a href="http://rennacs.com/" target="_blank">Rennacs</a> system for tracking log files related to car diagnostics created in the drupal CMS.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section">
-        <div class="row raised-box">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2 class="text-center"><u>Contact Me</u></h2>
-                <p>For a copy of my CV or for any enquiries please use the mail address below, or to find out more about me and my skillset check me out on LinkedIn and GitHub.</p>
-                <p>Email: <a target="_blank" href="mailto:me@michaelcoleman.nz">me@michaelcoleman.nz</a></p>
-                <p>LinkedIn: <a target="_blank" href="https://nz.linkedin.com/in/michaelcoleman404">michaelcoleman404</a></p>
-                <p>GitHub: <a target="_blank" href="https://github.com/MichaelNZ404">MichaelNZ404</a></p>
-            </div>
-        </div>
-    </section>
-
-    <div class="text-center footer">
-        <p>Copyright &copy; Michael Coleman 2014-2018</p>
-    </div>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/grayscale.js"></script>
-    <script src="js/box-slider-all.jquery.min.js"></script>
-    <script src="js/main.js"></script>
 </body>
 
 </html>
