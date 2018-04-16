@@ -374,7 +374,7 @@ img::-moz-selection {
 @keyframes fadeinleft {
     from {
         opacity: 0;
-        left: -300px;
+        left: -200px;
     }
     to {
         opacity: 1;
@@ -385,7 +385,7 @@ img::-moz-selection {
 @keyframes fadeinright {
     from {
         opacity: 0;
-        left: 300px;
+        left: 200px;
     }
     to {
         opacity: 1;
@@ -395,7 +395,7 @@ img::-moz-selection {
 
 .list-social-icons{
     opacity: 0;
-    animation: slowfadein 2s;
+    animation: slowfadein 3s;
     animation-delay: 2s;
     animation-fill-mode: forwards;  
 }
